@@ -7,7 +7,7 @@ export default function App() {
   const SaveData = () => {
     console.log("Saving");
     AsyncStorage.clear();
-    AsyncStorage.setItem('@store1:key', "Data for Store 2");
+    AsyncStorage.setItem('@store1:key', "Data for You");
     console.log("Saving Done!");
   };
 
